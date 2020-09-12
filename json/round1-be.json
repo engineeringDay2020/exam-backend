@@ -1,0 +1,240 @@
+{
+  "mcqs": [
+    {
+      "question": "<p>Which one of the following attribute can be taken as a primary key?</p>",
+      "options": ["A. Name", "B.Street", "C. ID", "D. Department"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>In SQL the spaces at the end of the string are removed by _______ function</p>",
+      "options": ["A. Upper", "B. String", "C. Lower", "D. Trim"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>_________ joins are SQL server default</p>",
+      "options": ["A. Outer", "B. Inner", "C. Equi", "D. None"],
+      "answer": "B"
+    },
+    {
+      "question": "<p>A _____ indicates an absent value that may exist but be unknown or that may not exist at all.</p>",
+      "options": [
+        "A. Empty tuple",
+        "B. New value ",
+        "C.Null value",
+        "D. Old Value"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which of the following is a clustering algorithm in machine learning?</p>",
+      "options": [
+        "A. Expectation Maximization",
+        "B. CART",
+        "C. Gaussian Naïve Bayes",
+        "D. Apriori"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>An enumerated type is composed of</p>",
+      "options": [
+        "A. Integer values with user defined name",
+        "B. Variables of different data types",
+        "C. Constant numeric values",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following type does the container should define?</p>",
+      "options": [
+        "A. Iterator type",
+        "B. Vector type",
+        "C. Storage type",
+        "D. None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which are the parameters for the content of the buffer?</p>",
+      "options": [
+        "A. start",
+        "B. finish",
+        "C. both start and finish",
+        "D. None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>How many vector container properties are there in c++?</p>",
+      "options": ["A.1", "B. 2", "C. 3", "D. 4"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What are support vectors?</p>",
+      "options": [
+        "A.The examples farthest from the decision boundary.",
+        "B. The only examples necessary to compute f(x) in an SVM.",
+        "C. The class centroids.",
+        "D. The class centroids."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Different learning methods does not include?</p>",
+      "options": [
+        "A.Memorization",
+        "B.Analogy",
+        "C.Deduction",
+        "D.Introduction"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Choose the options that are not correct regarding machine learning (ML) and artificial intelligence (AI)</p>",
+      "options": [
+        "A.ML is an alternate way of programming intelligent machines.",
+        "B. ML and AI have very different goals.",
+        "C. ML is a set of techniques that turns a dataset into a software.",
+        "D.AI is a software that can emulate the human mind."
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>What determine the order of evalution of a prefix expression?</p>",
+      "options": [
+        "A. precedence and associativity",
+        "B. precedence only",
+        "C. associativity only",
+        "D. depends on the parser"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>In case of insertion into a linked queue, a node borrowed from the ------------ list is inserted in the queue.</p>",
+      "options": ["A. Avail", "B. Front", "C. Rear", "D. Null"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>What is the time complexity for converting decimal to binary numbers?</p>",
+      "options": ["A.O(1)", "B. O(n)", "C. O(logn)", "D. O(nlogn)"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which of the following sorting algorithms can be used to sort a random linked list with minimum time complexity ?</p>",
+      "options": [
+        "A. Insertion sort",
+        "B.Quick sort",
+        "C. Heap sort",
+        "D. Merge sort"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What will be the output of the following?<br>\n #include<iostream> \n using namespace std;\n void f() \n{ \n static int i; \n ++i; \n cout<<i<<' '; }  main() { f(); f(); f();  }</p>",
+      "options": ["A. 1 1 1", "B. 0 0 0", "C. 3 2 1", "D. 1 2 3"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of the following function prototype is perfectly acceptable? </p>",
+      "options": [
+        "A.int Function(int Tmp = Show());",
+        "B.float Function(int Tmp = Show(int, float));",
+        "C.Both A and B.",
+        "D.float = Show(int, float) Function(Tmp)"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following statement is correct?</p>",
+      "options": [
+        "A.Two functions having same number of argument, order and type of argument can be overloaded if both functions do not have any default argument.",
+        "B.Overloaded function must have default arguments",
+        "C.Overloaded function must have default arguments starting from the left of argument list.",
+        "D.A function can be overloaded more than once."
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p> Where the default value of parameter have to be specified?</p>",
+      "options": [
+        "A.Function call",
+        "B.Function definition",
+        "C.Function prototype",
+        "D.Both B or C"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Find the output of the following Java code line: \n System.out.println(math.floor(-7.4)) </p>",
+      "options": ["A.-7", "B.-8", "C. -7.4", "D. -7.0"],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Predict the Output:   \n class Main \n{   \n public static void main(String args[])\n{ \nfinal int i; \n    i = 20; \n   i = 30; \n System.out.println(i); \n}  }\n </p>",
+      "options": ["A.30", "B.Compiler error", "C.Garbage value", "D.0"],
+      "answer": "B"
+    },
+    {
+      "question": "<p> In Java, can we make functions inline like C++? </p>",
+      "options": ["A.YES", "B.NO", " ", " "],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Which one of the following is correct? </p>",
+      "options": [
+        "A.Java applets can not be written in any programming language ",
+        "B.An applet is not a small program",
+        "C.An applet can be run on its own",
+        "D.Applets are embedded in another applications"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of the following is/are advantages of packages? </p>",
+      "options": [
+        "A.Packages avoid name clashes ",
+        "B.Classes, even though they are visible outside their package, can have fields visible to packages only ",
+        "C.We can have hidden classes that are used by the packages, but not visible outside.",
+        "D.All of the above"
+      ],
+      "answer": "D"
+    },
+
+    {
+      "question": "<p> Which of the following statements regarding enumerators is false?</p>",
+      "options": [
+        " A.Enumeration is an alternative method for naming integer constants",
+        "B.An enumerator value can’t be changed in a program",
+        "C.An integer value may be assigned to an enumerated variable",
+        "D.An enum defined within a structure is local to the structure"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p> Which of the following statements is false?</p>",
+      "options": [
+        "A.typedef defines new data types",
+        "B.Using typedef does not replace the standard C++ data type name with the new name",
+        "C.The new name defined by typedef, can be used as a type for another typedef",
+        "D.None"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following correctly describes overloading of functions?</p>",
+      "options": [
+        "A.Virtual polymorphism",
+        "B. Transient polymorphism",
+        "C. Ad-hoc polymorphism",
+        "D.Pseudo polymorphism"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which are the parameters for the content of the buffer?</p>",
+      "options": ["A.start", "B.finish", "C.Both a and b", "D.None"],
+      "answer": "C"
+    }
+  ]
+}

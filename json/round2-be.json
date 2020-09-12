@@ -1,0 +1,234 @@
+{
+  "mcqs": [
+    {
+      "question": "<p> SELECT __________FROM instructor WHERE dept name= ’Comp. Sci.’; Which of the following should be used to find the mean of the salary ?</p>",
+      "options": [
+        "a) Mean(salary)",
+        "b) Avg(salary)",
+        "c) Sum(salary)",
+        "d) Count(salary)"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>  A Boolean data type that can take values ________</p>",
+      "options": [
+        "a) False, and 1",
+        "b) True, and 0",
+        "c) True, False, and Null",
+        "d) True, False, and Unknown"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p> Which of the following is not an integrity constraint?</p>",
+      "options": [
+        "a) Not null",
+        "b) Positive",
+        "c) Unique",
+        "d) Check ‘predicate’"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p> Which of the following is a part of the Oracle database system?</p>",
+      "options": [
+        "a) Free lists",
+        "b) Front end",
+        "c) Network",
+        "d) None of the above Answer"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>The number of attributes in a relation is called its ----- </p>",
+      "options": ["a) row", "b) column", "c) degree", "d) None of the above "],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following machine learning algorithm can be used for imputing missing values of both categorical and continuous variables?</p>",
+      "options": [
+        "a) K-NN",
+        "b) Linear Regression",
+        "c)  Logistic Regression ",
+        " "
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following statements is true for k-NN classifiers?</p>",
+      "options": [
+        "a)The classification accuracy is better with larger values of k",
+        "b) The decision boundary is smoother with smaller values of k",
+        "c) The decision boundary is linear",
+        "d) k-NN does not require an explicit training step"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which search method takes less memory?</p>",
+      "options": [
+        "a)Depth-FirstSearch",
+        "b)Breadth-Firstsearch",
+        "c)LinearSearch",
+        "d)Optimalsearch"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following is NOT supervised learning?</p>",
+      "options": [
+        "a) PCA",
+        "b) Decision Tree",
+        "c) Linear Regression",
+        "d) Naive Bayesian"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Elements in an array are accessed ------------</p>",
+      "options": [
+        "a) Randomly",
+        "b) Sequentially",
+        "c) Exponentially",
+        "d) Logarithmically"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>What does the following function do for a given linked list with first node as head? Void fun1(struct node*head) { if(head == NULL) return; fun1(head->next); printf(“%d”,head->data); }</P>",
+      "options": [
+        "a) Print all nodes of linked lists",
+        "b) Prints all nodes of linked list in reverse order",
+        "c) Print alternate nodes of linked list",
+        "d) Prints alternate nodes in reverse order"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Which of these is not an application of linked list?</p>",
+      "options": [
+        "a)To implement file system ",
+        "b) For seprate chaining in hash-table",
+        "c) To implement non-binary tree",
+        "d) Random access of element"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p> What is the output of the following program? #include<iostream>  using namespace std; main() { int i = 1, j = 2, k = 3, r;  r = (i, j, k); cout<<r<<endl; }</p>",
+      "options": ["a) -1", "b) -2", "c) -3", "d) Compile error"],
+      "answer": "C"
+    },
+    {
+      "question": "<p> What is the output of the following program? #include<iostream> using namespace std; main() { int *p = new int; delete p; delete p; cout<<Done</p>",
+      "options": [
+        "a) Done",
+        "b) Compile error",
+        "c) Runtime error",
+        "d) None of above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Identify the C++ compiler of Linux </p>",
+      "options": ["a) - cpp ", "b)  - g++", "c) - Borland", "d)  - vc++"],
+      "answer": "B"
+    },
+    {
+      "question": "<p>] Evaluate the following Java expression, if x=3, y=5, and z=10: ++z + y - y + z + x++ </p>",
+      "options": ["a) 24", "b) 23", "c) 20", "d) 25"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which package contains the Random class? </p>",
+      "options": [
+        "a) java.util package ",
+        "b) java.lang package",
+        "c) java.awt package ",
+        "d) java.io package "
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Predict the output. class Main { public static void main(String args[]) { int t; System.out.println(t); } } </p>",
+      "options": [
+        "a) 0",
+        "b) Garbage Value ",
+        "c) Compiler Error ",
+        "d) Runtime Error "
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p> Which of the following is/are advantages of packages? </p>",
+      "options": [
+        "a) Packages avoid name clashes ",
+        "b) Classes, even though they are visible outside their package, can have fields visible to packages only ",
+        "c) We can have hidden classes that are used by the packages, but not visible outside.",
+        "d) All of above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Choose most appropriate statement</p>",
+      "options": [
+        "a)An abstract base class can have pure virtual destructor",
+        "b) An abstract base class can have only virtual destructor",
+        "c) An abstract base class can have non virtual destructor",
+        "d) An abstract base class cannot have destructor"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of the following statements regarding enumerators is false?</p>",
+      "options": [
+        "a) Enumeration is an alternative method for naming integer constants",
+        "b) An enumerator value can’t be changed in a program",
+        "c) An integer value may be assigned to an enumerated variable",
+        "d) An enum defined within a structure is local to the structure"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which of the following statements is false?</p>",
+      "options": [
+        "a) typedef defines new data types",
+        "b) Using typedef does not replace the standard C++ data type name with the new name",
+        "c) The new name defined by typedef, can be used as a type for another typedef",
+        "d) None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>The new operator</p>",
+      "options": [
+        "a) returns a pointer to the variable",
+        "b) creates a variable called new",
+        "c) obtains memory for a new variable",
+        "d) tells how much memory is available"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which of the following concepts means adding new components to a program as it runs?</p>",
+      "options": [
+        "a) Data hiding",
+        "b) Dynamic typing",
+        "c) Dynamic binding",
+        "d) Dynamic loading "
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p> In which type of storage location does the vector members are stored?</p>",
+      "options": [
+        "a) Contiguous storage locations",
+        "b) Non-contiguous storage locations",
+        "c) Both a & b",
+        "d) None of the mentioned"
+      ],
+      "answer": "A"
+    }
+  ]
+}
