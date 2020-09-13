@@ -1,0 +1,209 @@
+{
+  "mcqs": [
+    {
+      "question": "<p>What is the output for :- ‘It seems you are doing well’ [11:899]/p>",
+      "options": [
+        "A.‘It seems you are doing well’ ",
+        "B.‘ ‘",
+        "C.Index error ",
+        "D.‘u are doing well’ "
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Select the option for following code :- <br>\n  s = 0<br>\n for d in range(0, 5, 0.1): <br>\n s += d <br>\n print(s)</p>",
+      "options": [
+        "A.Syntax Error",
+        "B.Type Error",
+        "C.Runtime error ",
+        "D.Both b and c"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\n list(map((lambda x:x**2), <br>\n filter((lambda x:x%2==0), <br>\n  range(10)))) </p>",
+      "options": [
+        "A.[0,1,2,3,4,5,6,7,8,9]",
+        "B.[0,4,16,36,64] ",
+        "C.Error ",
+        "D. No output "
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Let A and B be objects of class Foo. Which functions are called when print(A + B) is executed? </p>",
+      "options": [
+        "A.__add__(), __str__()",
+        "B.__str__(), __add__()",
+        "C.__sum__(), __str__()",
+        "D.__str__(), __sum__()"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\n sentence = 'horses are fast' <br>\n regex = re.compile('(?P<animal>\\w+) (?P<verb>\\w+) <br>\n (?P<adjective>\\w+)') <br>\n matched = re.search(regex, sentence)<br>\n  print(matched.group(2)) </p>",
+      "options": [
+        "A.{‘animal’: ‘horses’, ‘verb’: ‘are’, ‘adjective’: ‘fast’} ",
+        "B.(‘horses’, ‘are’, ‘fast’)",
+        "C.‘horses are fast’",
+        "D. ‘are’ "
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of the following is true for variable names in Python?</p>",
+      "options": [
+        "A.unlimited length ",
+        "B.all private members must have leading and trailing underscores ",
+        "C.underscore and ampersand are the only two special characters allowed",
+        "D.None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Select all options that print: <br>\n  hello-how-are-you  </p>",
+      "options": [
+        "A.print(‘hello’, ‘how’, ‘are’, ‘you’)",
+        "B.print(‘hello’, ‘how’, ‘are’, ‘you’ + ‘-‘ * 4)",
+        "C.print(‘hello-‘ + ‘how-are-you’)",
+        "D.print(‘hello’ + ‘-‘ + ‘how’ + ‘-‘ + ‘are’ + ‘you’)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\n class Truth:<br>\n  pass <br>\n x=Truth() <br>\n  bool(x)</p>",
+      "options": ["A.pass", "B.true", "C.false", "D.error"],
+      "answer": "B"
+    },
+    {
+      "question": "<p>What is the value of the following Python expression? bin(0x8)  <br>\n bin(0x8)  </p>",
+      "options": ["A.‘0bx1000’", "B.8", "C.1000", "D.‘0b1000’ "],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What will be the output of the following Python  expression? <br>\n 24//6%3, 24//4//2 </p>",
+      "options": ["A.(1,3)", "B.(0,3)", "C.(1,0)", " D.(3,1)"],
+      "answer": "A"
+    },
+    {
+      "question": "<p> What will be the output of the following Python code? <br>\n string = 'my name is x'  <br>\n for i in string.split(): <br>\n  print (i, end=\", \") </p>",
+      "options": [
+        "A. m, y, , n, a, m, e, , i, s, , x, ",
+        "B. m, y, , n, a, m, e, , i, s, , x",
+        "C. my, name, is, x,",
+        "D. error."
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\n  True = False <br>\n while <br>\n True: print(True) <br>\n  break </p>",
+      "options": [
+        "A. True ",
+        "B. False",
+        "C. None",
+        "D. none of the mentioned "
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\nclass Demo: <br>\n def __init__(self): <br>\n self.a = 1 <br>\n self.__b = 1 <br>\n  def get(self): <br>\n  return self.__b<br>\n obj = Demo() <br>\nprint(obj.get())</p>",
+      "options": [
+        "A. The program has an error because there isn’t any function to return self.a",
+        "B. The program has an error because b is private and display(self) is returning a private member",
+        "C. The program has an error because b is private and hence can’t be printed ",
+        "D. The program runs fine and 1 is printed"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What happens if no arguments are passed to the seek function?</p>",
+      "options": [
+        "A. file position is set to the start of file",
+        "B. file position is set to the end of file",
+        "C. file position is set to the end of file",
+        "D. error "
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What will be the output of the following Python code? <br>\n x = 'abcd' <br>\n print(list(map(list, x)))</p>",
+      "options": [
+        "A. [‘a’, ‘b’, ‘c’, ‘d’] ",
+        "B. [‘abcd’]",
+        "C. ‘a’], [‘b’], [‘c’], [‘d’",
+        "D. None of the mentioned"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What do vectors represent?</p>",
+      "options": [
+        "A. Static arrays",
+        "B. Dynamic arrays",
+        "C. Stack",
+        "D. Queue"
+      ],
+      "answer": "B"
+    },
+    {
+      "question": "<p>Which of the following concepts means adding new components to a program as it runs?</p>",
+      "options": [
+        "A. Data hiding",
+        "B. Dynamic typing",
+        "C. Dynamic binding",
+        "D.Dynamic loading "
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Choose the correct statements. </p>",
+      "options": [
+        "A. A destructor is not inherited ",
+        "B. A constructor cannot be called explicitly",
+        "C. A constructor is not inherited",
+        "D. All of these"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Choose most appropriate statement</p>",
+      "options": [
+        "A. An abstract base class can have pure virtual destructor ",
+        "B. An abstract base class can have only virtual destructor",
+        "C. An abstract base class can have non virtual destructor",
+        "D. An abstract base class cannot have destructor"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p> What of the following describes protected access specifier? </p>",
+      "options": [
+        "A. precedence and associativity",
+        "B. precedence and associativity",
+        "C. associativity only ",
+        "D.depends on the parser"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following is not the method to represent sparse matrix?</p>",
+      "options": [
+        "A. Dictionary of key",
+        "B. Linked list",
+        "C. Array",
+        "D. Heap"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Out of the following operators (| , * , + , & , $ ), the one having lowest priority is --------</p>",
+      "options": ["A. + ", "B. $ ", "C. |", "D. &"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which is the most appropriate data structure for applying balancing of symbols algorithm?</p>",
+      "options": [" A. Stack", "B. Queue", "C. Tree", "D. Graph"],
+      "answer": "A"
+    }
+  ]
+}

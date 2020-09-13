@@ -1,0 +1,206 @@
+{
+  "mcqs": [
+    {
+      "question": "<p> Assuming int is of 4bytes, what is the size of int arr[15];?</p>",
+      "options": ["15", "19", "11", "60"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What determine the order of evalution of a prefix expression?</p>",
+      "options": [
+        "precedence and associativity",
+        "precedence only",
+        "associativity only",
+        "depends on the parser"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following is not the method to represent sparse matrix?</p>",
+      "options": ["Dictionary of key", "Linked list", "Array", "Heap"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Out of the following operators (| , * , + , & , $ ), the one having lowest priority is --------</p>",
+      "options": ["+", "$", "|", "&"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which is the most appropriate data structure for applying balancing of symbols algorithm?</p>",
+      "options": ["Stack", "Queue", "Tree", "Graph"],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Choose the correct statements.</p>",
+      "options": [
+        "A destructor is not inherited",
+        "A constructor cannot be called explicitly",
+        "A constructor is not inherited",
+        "All of these"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>] Choose most appropriate statement</p>",
+      "options": [
+        "An abstract base class can have pure virtual destructor",
+        "An abstract base class can have only virtual destructor",
+        "An abstract base class can have non virtual destructor",
+        "An abstract base class cannot have destructor"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>What is the importance of mutable keyword?</p>",
+      "options": [
+        "It allows the data member to change within a const member function.",
+        "It will not allow the data member to change within a const member function.",
+        "It will copy the values of the variable.",
+        "None of the mentioned"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>] Which of the following statements is false?</p>",
+      "options": [
+        "typedef defines new data types",
+        "Using typedef does not replace the standard C++ data type name with the new name",
+        "The new name defined by typedef, can be used as a type for another typedef",
+        "None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following concepts means adding new components to a program as it runs?</p>",
+      "options": [
+        "Data hiding",
+        "Dynamic typing",
+        "Dynamic binding",
+        "Dynamic loading"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Choose the operator which cannot be overloaded.</p>",
+      "options": ["/", "()", "::", "%"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\n  int i = 1, j = 2, k = 3, r;<br>\n   r = (i, j, k);<br>\n cout<<r<<endl;<br>\n}</p>",
+      "options": ["1", "2", "3", "Compile Error"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\n   int *p = new int;<br>\n   delete p;<br>\n  delete p;<br>\n   cout<<'Done';<br>\n}</p>",
+      "options": [
+        "Done",
+        "Compile error",
+        "Runtime error",
+        "None of the above"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\nfloat t = 2;<br>\nswitch(t) {<br>\ncase 2: cout<<�Hi�;<br>\ndefault: cout<<'Hello';<br>\n}<br>\n}</p>",
+      "options": ["Hi", "HiHello", "Hello", "Error"],
+      "answer": "D"
+    },
+    {
+      "question": "<p>For automatic objects, constructors and destructors are called each time the objects</p>",
+      "options": [
+        "enter and leave scope",
+        "inherit parent class",
+        "are constructed",
+        "are destroyed"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Which of the following shows the correct hierarchy of an arithmetic operations in C </p>",
+      "options": ["/ + * �", "* � / +", "+ � / *", "* / + � "],
+      "answer": "D"
+    },
+    {
+      "question": "<p>An array elements are always stored in _________  memory locations.</p>",
+      "options": [
+        "Sequential",
+        "Random",
+        "Sequential and Random",
+        "None of the above"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Bitwise operators can operate upon? </p>",
+      "options": [
+        "double and chars",
+        "floats and doubles",
+        "ints and floats",
+        "ints and chars"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p> Which of the following is allowed in a C Arithmetic instruction </p>",
+      "options": ["[]", "{}", "()", "None of the above"],
+      "answer": "C"
+    },
+    {
+      "question": "<p>Which is the correct syntax to declare constant pointer? </p>",
+      "options": [
+        "int *const constPtr;  constant constPtr;, const int *constPtr;: A and C both"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Select the option for following code :-<br>\ns = 0<br>\nfor d in range(0, 5, 0.1):<br>\n s += d<br>\nprint(s)</p>",
+      "options": [
+        "Syntax Error",
+        "Type Error",
+        "Runtime error",
+        "Both b and c"
+      ],
+      "answer": "D"
+    },
+    {
+      "question": "<p>Which of the following is true for variable names in Python?</p>",
+      "options": [
+        "unlimited length",
+        "all private members must have leading and trailing underscores",
+        "underscore and ampersand are the only two special characters allowed",
+        "none of the mentioned"
+      ],
+      "answer": "A"
+    },
+    {
+      "question": "<p>Select all options that print: <br>\nhello-how-are-you</p>",
+      "options": [
+        "print(�hello�, �how�, �are�, �you�)",
+        "print(�hello�, �how�, �are�, �you� + �-� * 4)",
+        "print(�hello-� + �how-are-you�)",
+        "print(�hello� + �-� + �how� + �-� + �are� + �you�)"
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p>] What will be the output of the following Python code?<br>\nx = 'abcd'<br>\nprint(list(map(list, x)))</p>",
+      "options": [
+        "[�a�, �b�, �c�, �d�]",
+        "[�abcd�]",
+        "�a�], [�b�], [�c�], [�d�",
+        "none of the mentioned "
+      ],
+      "answer": "C"
+    },
+    {
+      "question": "<p> What happens if no arguments are passed to the seek function?</p>",
+      "options": [
+        "file position is set to the start of file",
+        "file position is set to the end of file",
+        "file position remains unchanged",
+        "error"
+      ],
+      "answer": "D"
+    }
+  ]
+}
