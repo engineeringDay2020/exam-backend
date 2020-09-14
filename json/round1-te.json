@@ -1,9 +1,14 @@
 {
   "mcqs": [
     {
-      "question": "<p> Assuming int is of 4bytes, what is the size of int arr[15];?</p>",
-      "options": ["15", "19", "11", "60"],
-      "answer": "D"
+      "question": "<p>Which of the following is the least safe type casting in c++?</p>",
+      "options": [
+        "static_cast",
+        "const_cast",
+        "reinterpret_cast",
+        "dynamic_cast"
+      ],
+      "answer": "C"
     },
     {
       "question": "<p>What determine the order of evalution of a prefix expression?</p>",
@@ -21,9 +26,9 @@
       "answer": "D"
     },
     {
-      "question": "<p>Out of the following operators (| , * , + , & , $ ), the one having lowest priority is --------</p>",
-      "options": ["+", "$", "|", "&"],
-      "answer": "C"
+      "question": "<p>Are both of the preprocessor directives solving same purpose?<br>\n#include<iostream.h><br>\n#include\"iostream.h\"</p>",
+      "options": ["yes", "no", "depends on compiler", "none of the above"],
+      "answer": "A"
     },
     {
       "question": "<p>Which is the most appropriate data structure for applying balancing of symbols algorithm?</p>",
@@ -91,7 +96,7 @@
       "answer": "C"
     },
     {
-      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\n   int *p = new int;<br>\n   delete p;<br>\n  delete p;<br>\n   cout<<'Done';<br>\n}</p>",
+      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\n   int *p = new int;<br>\n   delete p;<br>\n  delete p;<br>\n   cout<<\"Done\";<br>\n}</p>",
       "options": [
         "Done",
         "Compile error",
@@ -101,7 +106,7 @@
       "answer": "C"
     },
     {
-      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\nfloat t = 2;<br>\nswitch(t) {<br>\ncase 2: cout<<�Hi�;<br>\ndefault: cout<<'Hello';<br>\n}<br>\n}</p>",
+      "question": "<p>What is the output of the following program?<br>\n#include<iostream><br>\nusing namespace std;<br>\nmain() {<br>\nfloat t = 2;<br>\nswitch(t) {<br>\ncase 2: cout<<�Hi�;<br>\ndefault: cout<<\"Hello\";<br>\n}<br>\n}</p>",
       "options": ["Hi", "HiHello", "Hello", "Error"],
       "answer": "D"
     },
@@ -116,9 +121,9 @@
       "answer": "A"
     },
     {
-      "question": "<p>Which of the following shows the correct hierarchy of an arithmetic operations in C </p>",
-      "options": ["/ + * �", "* � / +", "+ � / *", "* / + � "],
-      "answer": "D"
+      "question": "<p>Which gcc flag is used to enable all compiler warnings? </p>",
+      "options": ["gcc -W", "gcc -w", "gcc -Wall", "gcc -wall"],
+      "answer": "C"
     },
     {
       "question": "<p>An array elements are always stored in _________  memory locations.</p>",
@@ -148,7 +153,10 @@
     {
       "question": "<p>Which is the correct syntax to declare constant pointer? </p>",
       "options": [
-        "int *const constPtr;  constant constPtr;, const int *constPtr;: A and C both"
+        "int *const constPtr;",
+        "constant constPtr;",
+        "const int *constPtr;",
+        "A and C both"
       ],
       "answer": "D"
     },
